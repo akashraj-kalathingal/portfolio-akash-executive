@@ -7,5 +7,8 @@ const nextConfig = {
       { protocol: "https", hostname: "avatars.githubusercontent.com" },
     ],
   },
+  experimental: {
+    outputFileTracingRoot: process.cwd(),
+  },
 };
 export default nextConfig;

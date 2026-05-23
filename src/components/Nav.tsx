@@ -65,6 +65,7 @@ export default function Nav() {
 
         <a
           href={profile.resumeUrl}
+          download
           className="inline-flex items-center gap-1.5 rounded-full border border-[var(--color-accent)]/40 bg-[var(--color-accent)]/10 px-3.5 py-1.5 text-xs font-medium text-[var(--color-accent)] transition-colors hover:bg-[var(--color-accent)]/15"
         >
           Resume

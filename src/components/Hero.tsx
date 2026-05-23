@@ -125,7 +125,7 @@ export default function Hero() {
             className="group inline-flex items-center gap-2 rounded-full border border-[var(--color-border-strong)] bg-[var(--color-bg-elevated)] px-5 py-2.5 text-sm font-medium text-white transition-colors hover:border-[var(--color-accent)]/60"
           >
             <ArrowDownToLine className="h-4 w-4" />
-            Download résumé
+            Download Resume
           </a>
           <a
             href={profile.github}
@@ -155,7 +155,7 @@ export default function Hero() {
           className="mt-20 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-[var(--color-border)] bg-[var(--color-border)] sm:grid-cols-4"
         >
           <SnapCell label="Years building" value={snapshot.yearsExperience} />
-          <SnapCell label="Production scale" value={snapshot.productionScale} />
+          <SnapCell label="Data orchestrated" value={snapshot.productionScale} />
           <SnapCell label="Cloud platforms" value={snapshot.cloudPlatforms} />
           <SnapCell label="Core languages" value={snapshot.primaryLanguages} />
         </motion.div>
